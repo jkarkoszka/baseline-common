@@ -6,6 +6,6 @@ variable "account_name" {
   
 }
 
-variable "dependency_result" {
+variable "depedencies_result" {
   default = "none"
 }

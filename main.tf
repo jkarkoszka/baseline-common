@@ -1,3 +1,4 @@
 locals {
-  result = "baseline-common-${var.region}-${var.account_name}-with-dependency-result-${var.dependency_result}"
+  module_name_region_and_account_name = "baseline-common-${var.region}-${var.account_name}"
+  result = "${local.module_name_region_and_account_name} ++ ${depedencies_result}"
 }
