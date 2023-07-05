@@ -6,6 +6,6 @@ variable "account_name" {
   
 }
 
-variable "baseline_common_global_result" {
-  default = "default"
+variable "dependency_result" {
+  default = "none"
 }
